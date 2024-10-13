@@ -38,7 +38,7 @@ const SendMoney = () => {
           </div>
           <div className="p-6">
             <div className="flex items-center space-x-4">
-              <div className="w-12 h-12 rounded-full bg-green-500 flex items-center justify-center">
+              <div className="w-12 h-12 rounded-full bg-blue-500 flex items-center justify-center">
                 <span className="text-2xl text-white">
                   {friendName[0].toUpperCase()}
                 </span>
@@ -64,7 +64,7 @@ const SendMoney = () => {
               </div>
               <button
                 onClick={initiateTransfer}
-                className="justify-center rounded-md text-sm font-medium ring-offset-background transition-colors h-10 px-4 py-2 w-full bg-green-500 text-white"
+                className="justify-center rounded-md text-sm font-medium ring-offset-background transition-colors h-10 px-4 py-2 w-full bg-blue-500 text-white"
               >
                 Initiate Transfer
               </button>
