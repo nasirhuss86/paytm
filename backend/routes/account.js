@@ -33,7 +33,7 @@ router.post("/transfer", authMiddleware, async (req, res) => {
   if (!fromAccount || fromAccount.balance < amount) {
     await session.abortTransaction();
     return res.status(400).json({
-      msg: "Insufficient Balance",
+      msg: "Insufficient balance",
     });
   }
 
