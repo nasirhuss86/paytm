@@ -18,12 +18,12 @@ const Signin = () => {
           <Heading label={"Sign in"} />
           <SubHeading label={"Enter your credentials to access your account"} />
           <InputBox
-            placeholder="harkirat@gmail.com"
+            placeholder="nasir@gmail.com"
             label={"Email"}
             Change={(e) => setUsername(e.target.value)}
           />
           <InputBox
-            placeholder="123456"
+            placeholder="Nasir123"
             label={"Password"}
             Change={(e) => setPassword(e.target.value)}
           />

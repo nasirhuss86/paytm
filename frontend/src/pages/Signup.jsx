@@ -38,14 +38,14 @@ const Signup = () => {
             Change={(e) => {
               setUsername(e.target.value);
             }}
-            placeholder="harkirat@gmail.com"
+            placeholder="nasir@gmail.com"
             label={"Email"}
           />
           <InputBox
             Change={(e) => {
               setPassword(e.target.value);
             }}
-            placeholder="123456"
+            placeholder="Nasir123"
             label={"Password"}
           />
           <div className="pt-4">
