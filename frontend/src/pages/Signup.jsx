@@ -15,9 +15,9 @@ const Signup = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="bg-slate-300 h-screen flex justify-center">
+    <div className="bg-gradient-to-r from-blue-100  to-green-100 h-screen flex justify-center">
       <div className="flex flex-col justify-center">
-        <div className="rounded-lg bg-white w-80 text-center p-2 h-max px-4">
+        <div className="rounded-lg bg-red-50 w-80 text-center p-2 h-max px-4">
           <Heading label={"Sign up"} />
           <SubHeading label={"Enter your information to create an account"} />
           <InputBox

@@ -4,7 +4,7 @@ import { Users } from "../components/Users";
 
 const Dashboard = () => {
   return (
-    <div className="bg-slate-300 h-screen">
+    <div className="bg-blue-100 h-screen">
       <AppBar />
 
       <div className="flex flex-col justify-center m-8">
